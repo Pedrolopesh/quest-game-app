@@ -17,10 +17,10 @@ function Home(){
     return(
         <div>
             <Podium/>
-            
-            <Link to="/Preview">
-                <Button className="ac button-play" type="primary">Jogar</Button>
-            </Link>
+
+                <Button className="ac button-play" type="primary">
+                    <Link to="/Preview">Jogar</Link>
+                </Button>
         </div>
     )
 }
