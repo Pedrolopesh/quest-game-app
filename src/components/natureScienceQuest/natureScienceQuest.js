@@ -98,9 +98,9 @@ const NatureScienceQuest = (props) =>{
                         <p className="mt-2"> {quest.enunciated} </p>
 
                     <Checkbox.Group style={{ width: '100%' }} onChange={setAnswer}>
-                        <Row>
+                        <Row className="display-b">
                             {quest.options.map(options => (
-                                <Col key={options.id} span={8}>
+                                <Col className="mw-w-100" key={options.id} span={8}>
                                     <Checkbox value={options.id}> <strong>{options.option})</strong> {options.content}</Checkbox>
                                 </Col>
                             ))}

@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import NatureScienceQuest from  '../components/natureScienceQuest/natureScienceQuest';
 import ExactScienceQuest from  '../components/exactScienceQuest/exactScienceQuest';
 import HumanScienceQuest from  '../components/humanScienceQuest/humanScienceQuest';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Quest(){
     
