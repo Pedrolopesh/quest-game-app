@@ -6,7 +6,7 @@ import CupPodium3 from '../../assets/cup3.svg'
 
 export default function Podium(){
     return(
-        <div className="p15 ac container-box-podium">
+        <div className="p15 ac container-box-podium flex">
             <div className="box-podium ac">
                 <span className="box-podium-name">jogador: player02 </span>
                 <span className="box-podium-points">Pontuação: 1100 </span>
